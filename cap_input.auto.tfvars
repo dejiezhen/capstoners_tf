@@ -1,5 +1,4 @@
-export TF_VAR_acess_key=("AKIA6AK5B2HLSZ7O5SH4")
-export TF_VAR_secret_key=("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")
+
 vpc_id = "vpc-0b740cb8af218f9ad"
 
 input_private_subnetid = ["subnet-0285153096ded3b7e","subnet-0d5e1a03a7e2d6255","subnet-0391666d3649dc1bd"]
