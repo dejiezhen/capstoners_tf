@@ -165,7 +165,7 @@ data "aws_vpc" "selected" {
 
 
 
-resource "aws_ecs_service" "team5-my_first_service" {
+resource "aws_ecs_service" "capstoners-my_first_service" {
 
   name            = local.ecs_service_name                        # Naming our first service
 
@@ -351,9 +351,9 @@ terraform {
 
   backend "s3" {
 
-      bucket = "team5-capstone2-tf-state"
+      bucket = "capstoners-tf-state"
 
-      key    = "team5-state"
+      key    = "capstoners-state"
 
       region = "us-west-2"
 
