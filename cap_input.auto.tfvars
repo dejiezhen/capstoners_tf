@@ -7,3 +7,7 @@ input_pub_subnetid = ["subnet-0f1a02c99b7d80a0e","subnet-00eb6280abe08f9d1","sub
 ecr_repo = "capstoners"
 
 run_string="capstoners"
+
+access_key = "AKIA6AK5B2HLSZ7O5SH4"
+secret_key = "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"
+primary_region = "us-west-2"
