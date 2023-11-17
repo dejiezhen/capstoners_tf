@@ -94,7 +94,6 @@ resource "aws_ecs_task_definition" "my_first_task" {
       "memory": 512,
 
       "cpu": 256
-
     }
 
   ]
